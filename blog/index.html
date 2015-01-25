@@ -7,21 +7,8 @@
     <link rel="shortcut icon" href="http://www.p4n9.com/favicon.ico">
     <!-- Everybody else -->
     <link rel="icon" href="http://www.p4n9.com/favicon.ico">
+    <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
     <title>Blog</title>
-    <style type="text/css">
-        body {
-            font: 400 16px/1.62 Georgia, "Xin Gothic", "Hiragino Sans GB", "Droid Sans Fallback", "Microsoft YaHei", sans-serif;
-            color: #535353;
-            background: #ffffff;
-            overflow: hidden;
-        }
-        .p4n9 {
-            text-align: center;
-            margin: 120px auto auto auto;
-            max-width: 500px;
-            padding: 0 20px;
-        }
-    </style>
     <script>
       var _hmt = _hmt || [];
       (function() {
@@ -33,6 +20,46 @@
     </script>
 </head>
 <body>
-	<div class="p4n9">Coming soon...</div>
+	<header class="mod-head">
+        <div class="mod-head__logo">
+            <a href="/">
+                <img class="avatar" src="http://ww4.sinaimg.cn/large/8b4e2e11jw1eog694eahpj2050050q2z" alt="" width="26" height="26">
+            </a>
+        </div>
+        <nav class="mod-head__nav">
+            <ul class="mod-head__ul">
+                <li class="mod-head__nav-item"><a href="/about/resume.pdf" target="_blank">Resume</a></li>
+                <li class="mod-head__nav-item"><a href="/blog">Blog</a></li>
+                <li class="mod-head__nav-item"><a href="/links">Links</a></li>
+                <li class="mod-head__nav-item"><a href="https://github.com/p4n9" target="_blank">Github</a></li>
+                <li class="mod-head__nav-item"><a href="http://weibo.com/p4n9" target="_blank">Weibo</a></li>
+                <li class="mod-head__nav-item"><a href="mailto:pangjinfan@gmail.com">Email</a></li>
+            </ul>
+        </nav>
+    </header>
+    <article class="mod-archive">
+        <div class="mod-archive__item">
+            <div id="2015" class="mod-archive__year">2015</div>
+            <ul class="mod-archive__list">
+                <li>
+                    <time class="mod-archive__time" datetime="">2015-01-25</time> — <a href="/t/hello-world.html">Hello World!</a>
+                </li>
+                <li>
+                    <time class="mod-archive__time" datetime="">2015-01-25</time> — <a href="/t/hello-world.html">Hello World!</a>
+                </li>
+            </ul>
+        </div>
+        <div class="mod-archive__item">
+            <div id="2014" class="mod-archive__year">2014</div>
+            <ul class="mod-archive__list">
+                <li>
+                    <time class="mod-archive__time" datetime="">2014-02-02</time> — <a href="/t/hello-world.html">Hello World!</a>
+                </li>
+            </ul>
+        </div>
+    </article>
+    <footer class="mod-footer" role="contentinfo">
+        <p>Copyright © 2015 by pangjinfan. Theme design by Willerce Zenn.</p>
+    </footer>
 </body>
 </html>
