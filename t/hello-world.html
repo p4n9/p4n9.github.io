@@ -9,6 +9,16 @@
     <!-- Everybody else -->
     <link rel="icon" href="http://www.p4n9.com/favicon.ico">
 	<title>Hello World!</title>
+	<style type="text/css">
+	    .ImageStyle {
+	    	max-height:300px;
+	    	max-width:300px;
+	    	width:expression( (this.width > 300 && this.width > this.height) ? '300px': this.width+'px');
+	    	height:expression( (this.height > 300 && this.height > this.width) ? '300px': this.height+'px');
+	    	border: 0px;
+	    	vertical-align: middle;
+	    }
+	</style>
 	<script>
       var _hmt = _hmt || [];
       (function() {
@@ -50,7 +60,7 @@
 			<p>
 				1.图片
 				<br>
-				<img height="240" width="320" src="http://ww3.sinaimg.cn/large/5075e3f7jw1elou4u648xj20qq0ktq4q.jpg">
+				<img class="ImageStyle" src="http://ww3.sinaimg.cn/large/5075e3f7jw1elou4u648xj20qq0ktq4q.jpg">
 			</p>
 			<p>
 				2.音频
@@ -72,7 +82,7 @@
 				<br>
 				-优酷 - iframe插件
 				<br>
-				<iframe height=240 width=320 src="http://player.youku.com/embed/XODAxMjg5NzA0" frameborder=0 allowfullscreen></iframe>
+				<iframe height=400 width=480 src="http://player.youku.com/embed/XODAxMjg5NzA0" frameborder=0 allowfullscreen></iframe>
 			</p>
 		</div>
 		<div class="mod-post__meta">
